@@ -1,0 +1,15 @@
+nav{
+    background-color: black;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin: 5px 25px 5px  25px;
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
