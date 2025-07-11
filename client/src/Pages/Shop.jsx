@@ -1,5 +1,7 @@
 export const Shop=()=>{
     return(
-        <h1>Shopping page</h1>
+        <div className="container">
+            <h2>categories</h2>
+        </div>
     )
 }

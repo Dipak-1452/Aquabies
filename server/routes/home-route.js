@@ -5,7 +5,7 @@ const router=express.Router();
 
 router.get('/message',async(req,res)=>{
     const images=await Image.find({},'image');
-    console.log(images)
+    // console.log(images)
     // res.json({message:"hello from server!.."})
     res.json(images)
 })
