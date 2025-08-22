@@ -1,9 +1,9 @@
-import './logIn.css';
+import './Register.css';
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
-export const LogIn = () => {
+export const Register = () => {
 
     const navigate = useNavigate();
 

@@ -1,0 +1,66 @@
+.loginContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerContainer {
+    width: 20rem;
+    height: 20rem;
+    /* border: 2px solid blue; */
+    border-radius: 20px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.loginInput {
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+    margin-top: 1.6rem;
+}
+.loginInut::placeholder{
+    color: #188695;
+    opacity: 0.7;
+}
+.loginButton{
+    width: 18rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    /* outline: none; */
+    /* background-color: transparent; */
+    margin-top: 1.6rem;
+    background-color: #62c9d7;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #004f5f;
+    opacity: 0.8;
+}
+.forgotten{
+    margin-top: 0.5rem;
+    color: #00aef9;
+    font-weight: bold;
+}
+.line{
+    width: 18rem;
+    border: 1px solid #62c9d7;
+    margin-top: 1.5rem;
+}
+.regCon{
+    color: #188695;
+    margin-top: 1rem;
+}
+.register{
+    color: #00aef9;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
